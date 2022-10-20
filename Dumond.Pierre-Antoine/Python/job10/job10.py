@@ -1,0 +1,6 @@
+texte = input("Entrez votre texte :")
+created_file = open("fichierutilisateur.txt", "w")
+created_file.write(texte)
+created_file.close()
+created_file = open("fichierutilisateur.txt", "r")
+print(created_file.read())
