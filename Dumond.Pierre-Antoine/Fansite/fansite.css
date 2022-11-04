@@ -1,0 +1,256 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+/* Header et menu Début */
+/* Header et menu Début */
+.header{
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 20%;
+    background-color: #0D3A18;
+    color: #FFFFFF;
+    font-size: larger;
+}
+#LogoBouton{
+    display: block;
+    height: 300px;
+    width: 300px;
+    background-image: url(Images/milwaukee-bucks-logo.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% 100%;
+}
+.menu {
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.limenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/* Ballon de Basket Bouton */
+.rond{
+    display: flex;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/BallBucksBrown.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 200%;
+}
+/* Utilisé à l'intérieur de la nav pour le menu */
+.Bouton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    padding: 15px;
+    border-radius: 300px;
+    color: #FFFFFF;
+    background-color: #0D3A18;
+}
+
+/* Header et Menu fin */
+/* Header et Menu fin */
+
+
+/* Section 1 Début */
+/* Section 1 Début */
+.carre{
+    height: 500px;
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin: 3%;
+    padding: 3%;
+    background-color: #00471C;
+    color: #FFFFFF;
+    border-radius: 10%;
+    box-shadow: 30px -20px #002001;
+}
+.sec1{
+    background-color: #0D3A18;
+    display: flex;
+}
+
+/* Section 1 Fin */
+/* Section 1 Fin */
+
+/* Section 2 Début */
+/* Section 2 Début */
+.sec2{
+    height: auto;
+    width: auto;
+    color: #00471C;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    margin: 3%;
+    padding: 3%;
+}
+.container{
+    height: auto;
+    width: auto;
+    padding: 3%;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2%;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    margin: 3%;
+}
+.circleLeft{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    shape-outside: circle();
+    float: left;
+    margin: 2%;
+}
+.circleRight{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    shape-outside: circle();
+    float: right;
+    margin: 2%;
+}
+.circleImg1{
+    background: url(Images/Actus/News1.png);
+    background-size: 100% 100%;
+    background-position-x: center;
+    background-position-y: center;
+}
+.circleImg2{
+    background: url(Images/Actus/News2.png);
+    background-size: 100% 100%;
+    background-position-y: center;
+    background-position-x: center;
+}
+.circleImg3{
+    background: url(Images/Actus/News3.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% 100%;
+}
+/* Section 2 Fin */
+/* Section 2 Fin */
+
+/* Footer Début */
+/* Footer Début */
+.footer{
+    background-color: #0D3A18;
+    color: #FFFFFF;
+}
+.logoReseaux{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+/* Footer Fin */
+/* Footer Fin */
+
+
+
+/* Onglet Team */ /* Onglet Team */ /* Onglet Team */
+/* Onglet Team */ /* Onglet Team */ /* Onglet Team */
+/* Onglet Team */ /* Onglet Team */ /* Onglet Team */
+
+
+
+/* Section 1 Début */
+/* Section 1 Début */
+.sec1Team{
+    background-image: url(Images/ParquetBasket.jpg);
+    background-attachment: fixed;
+    object-fit: cover;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 2em;
+    color: #00471C;
+}
+.recimgTeam{
+    height: 600px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+    color: #FFFFFF;
+    border-radius: 10%;
+    background-position-x: center;
+    background-position-y: center;
+    object-fit: cover;
+    margin: 2%;
+}
+.teamimg1{
+    background-image: url(Images/Joueur/Antetokounmpo.png);
+}
+.teamimg2{
+    background-image: url(Images/Joueur/Lopez.png);
+}
+.teamimg3{
+    background-image: url(Images/Joueur/Holiday.png);
+}
+.teamimg4{
+    background-image: url(Images/Joueur/Portis.png);
+}
+.teamimg5{
+    background-image: url(Images/Joueur/Allen.png);
+}
+.teamimg6{
+    background-image: url(Images/Joueur/Hill.png);
+}
+.teamimg7{
+    background-image: url(Images/Joueur/Connaughton.png);
+}
+.teamimg8{
+    background-image: url(Images/Joueur/Nwora.png);
+}
+.teamimg9{
+    background-image: url(Images/Joueur/Green.png);
+}
+.teamimg10{
+    background-image: url(Images/Joueur/Matthews.png);
+}
+.teamimg11{
+    background-image: url(Images/Joueur/Ibaka.png);
+}
+.teamimg12{
+    background-image: url(Images/Joueur/Ingles.png);
+}
+.teamimg13{
+    background-image: url(Images/Joueur/Beauchamp.png);
+}
+.teamimg14{
+    background-image: url(Images/Joueur/Antetokounmpo2.png);
+}
+.teamimg15{
+    background-image: url(Images/Joueur/Mamukelashvili.png);
+}
+/* Section 1 Fin */
+/* Section 1 Fin */
